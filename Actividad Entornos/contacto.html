@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <title>Curso de HTML5 y CSS3</title>
+    <meta name="description" content="HTML5, CSS3">
+    <link rel="stylesheet" href="estilos.css">
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+        </script>
+        <![endif]-->
+</head>
+
+<body>
+    <div id="page">
+        <header>
+            <img class="principio" src="./imgs/logo.png">
+            <img class="principio2" src="./imgs/logo.png">
+            <h1>Curso de HTML5 y CSS3</h1>
+        </header>
+        <nav>
+            <ul>
+
+                <img class="libro" src="./imgs/book.png">
+                <img class="peli" src="./imgs/film.png">
+                <img class="email" src="imgs/mail.png">
+
+                <br>
+
+                <li class="contenidos" name="contenidos"><a href="./index.html">Contenidos</a></li>
+                <li class="videos" name="videos"><a href="./videos.html">Vídeos</a></li>
+                <li class="contacto" name="contacto"><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="contacto">
+                <h1>Contáctenos</h1>
+                <form action="procesar_formulario.php" method="post">
+
+                    <label for="nombre">Nombre:</label>
+                    <br>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+
+                    <br>
+                    <br>
+                    <br>
+
+                    <label for="email">Correo Electrónico:</label>
+                    <br>
+                    <input type="email" id="email" name="email" placeholder="Escribe tu email" required>
+
+                    <br>
+                    <br>
+                    <br>
+        
+                    <label for="mensaje">Mensaje:</label>
+
+                    <br>
+
+                    <textarea id="mensaje" name="mensaje" placeholder="Contáctanos..." required></textarea>
+
+                    <br>
+                    <br>
+        
+                    <button type="submit">Enviar</button>
+
+                    <br>
+                    <br>
+
+                </form>
+            </div>
+        </main>
+        <footer>
+            <small>Alejandro Amat Reina © 2014. Curso de HTML5 y CSS3.</small>
+            <address>Impartido para: <a href="http://cefire.edu.gva.es"> CEFIRE - Específico de Formación Profesional</a></address>
+        </footer>
+    </div>
+</body>
+
+</html>
